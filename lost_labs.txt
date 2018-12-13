@@ -1,0 +1,53 @@
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!THE LOST LABS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+Level 1: Download and use software outside of the standard CentOS repos
+
+The goal of this assignment is to teach students the absolute utility of the Linux terminal, also to enhance focus by showing how "harcker-y" they are.
+
+1. install elinks
+	a. elinks is a powerful text-based web browser for the linux terminal
+	b. yum install elinks.x86_64
+2. go onto your preferred browser when prompted, and then look up "vitetris"
+3. download the linux tarball, and then expand it
+4. go into the directory for vitetris, then type "make", then play the game by executing the binary
+5. after you're done playing vitetris, go back into your home directory
+6. enter "wget [link name here]", and then expand the tarball you get from it
+7. type "make" after changing the directory to the file you got from expanding the tarball
+8. execute the binary within that file, and then play myman, my maaaaan!
+
+Evidence for Kyle:
+
+1. check that elinks is installed by having the student enter "elinks"
+2. check that vitetris is installed by having the student change the directory to the vitetris directory
+3. check that vitetris works by having the student execute the binary
+4. repeat 2 and 3 with myman instead of vitetris
+
+Level 2 the midboss: Use git to clone github repositories
+	Git is a powerful tool allowing you to downlad open-source software, as well as version control. If you are going into Computer Science, you will
+	use Git (or at least something close to it) in order to manage group projects.
+
+1. install/update git
+	a. You know what to do.
+2. use git to clone the git repository: [ENTER LINK HERE]
+3. expand the tar file, then enter the directory that comes from it
+4. follow the README instructions to install moon_buggy
+5. run the moon_buggy binary, and have fun!
+
+Evidence for Kyle:
+
+1. check that git is installed by entering "git --help"
+2. check that moon_buggy is installed by looking for the game directory 
+3. check that the game was built properly by executing the binary
+
+Level 3: SSH, THE FINAL BOSS!
+	SSH is an encrypted network protocol which allows for secure communication over an insecure network.
+1. install ssh if it isn't on your computer
+2. check out ssh by connecting to ssh tron
+	a. enter "ssh sshtron.zachlatta.com"
+	b. play around with other classmates
+
+NOTE FOR KYLE: The only game I could find that you can play over ssh is sshtron. I tried to find other things, but I think that sshtron is our only option.
+	       Really, I think that the function of these short labs is to enhance interest in linux, in order to inspire students to learn more about linux
+	       after the class.
