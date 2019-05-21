@@ -47,7 +47,3 @@ Level 3: SSH, THE FINAL BOSS!
 2. check out ssh by connecting to ssh tron
 	a. enter "ssh sshtron.zachlatta.com"
 	b. play around with other classmates
-
-NOTE FOR KYLE: The only game I could find that you can play over ssh is sshtron. I tried to find other things, but I think that sshtron is our only option.
-	       Really, I think that the function of these short labs is to enhance interest in linux, in order to inspire students to learn more about linux
-	       after the class.
